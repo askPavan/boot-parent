@@ -10,6 +10,7 @@ public class BootParentApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(BootParentApplication.class, args);
 		context.getClass();
+		// changes for 123
 	}
 
 }
