@@ -12,5 +12,10 @@ public class BootParentApplication {
 		context.getClass();
 		// changes for 123
 	}
+	
+	//HIS-200 related changes.
+	public void doProcess(){
+	/logic goes here
+	}
 
 }
