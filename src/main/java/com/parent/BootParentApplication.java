@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class BootParentApplication {
 
+priavate static final String REST_URL="https://findrestapis.com/findurls";
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(BootParentApplication.class, args);
 		context.getClass();
