@@ -14,9 +14,16 @@ private Map<String, Object> cache = new HashMap<String, Object>();
 		context.getClass();
 		// changes for 123
 	}
+
 	//HIS-301 changes
 	public void loadDataToCache(){
 		//logic to retrieve the data from database.
+  }
+	
+	//HIS-200 related changes.
+	public void doProcess(){
+	//logic goes here
+
 	}
 
 }
