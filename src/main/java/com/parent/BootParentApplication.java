@@ -15,6 +15,7 @@ private Map<String, Object> cache = new HashMap<String, Object>();
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(BootParentApplication.class, args);
 		Machine machine = context.getBean('machine', Machine.class);
+		Car car = context.getBean('car',Car.class);
 		context.getClass();
 		// changes for 123
 	}
