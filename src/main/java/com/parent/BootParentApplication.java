@@ -23,4 +23,5 @@ public class BootParentApplication {
 		context.getClass();
 		// changes for 123
 	}
+
 }
